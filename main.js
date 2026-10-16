@@ -5,6 +5,7 @@ const temperature = document.getElementById("temperature");
 const  condition = document.getElementById("condition");
 const humidity = document.getElementById("humidity");
 const wind = document.getElementById("wind");
+// const clouds = document.getElementById("clouds");
 
 const error = document.getElementById("error")
 

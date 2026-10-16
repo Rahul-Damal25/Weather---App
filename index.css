@@ -8,14 +8,14 @@ body{
 }
 
 .weather-app{
-    height: 450px;
+    height: 500px;
     width: 400px;
     background-color: antiquewhite;
     border-radius: 10px;
     box-shadow: 1px 1px 10px 1px white;
     text-align: center;
     margin: auto;
-    margin-top: 7rem;
+    margin-top: 2rem;
 }
 .weather-app h1{
     padding-top: 2rem;
@@ -32,11 +32,26 @@ body{
     padding: 0.4rem;
 }
 #weather{
+
    display: flex;
    flex-direction: column; 
-   gap: 1.5rem; 
+   gap: 1rem; 
 }
 
 #cityName{
     font-size: 2.3rem;
 }
+
+
+.weather-icon {
+    font-size: 20px;
+    /* margin: 15px 0; */
+}
+
+.weather-details {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 12px;
+    margin-top: 25px;
+}
+
