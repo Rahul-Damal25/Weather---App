@@ -30,7 +30,8 @@ async function getWeather() {
         const data = await response.json();
 
         if(!response.ok){
-            throw new Error(data.message || "Weather not Found")
+            // throw new Error(data.message || "Weather not Found")
+            alert("city not find")
         }
        
         cityname.textContent = data.name;

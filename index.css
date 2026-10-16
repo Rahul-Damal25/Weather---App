@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+
+.weather-app{
+    height: 450px;
+    width: 400px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px white;
+    text-align: center;
+    margin: auto;
+    margin-top: 7rem;
+}
+.weather-app h1{
+    padding-top: 2rem;
+}
+.search-box{
+    margin-top: 2rem;
+    padding: 1rem;
+
+}
+#cityInput{
+    padding: 0.4rem;
+}
+#searchBtn{
+    padding: 0.4rem;
+}
+#weather{
+   display: flex;
+   flex-direction: column; 
+   gap: 1.5rem; 
+}
+
+#cityName{
+    font-size: 2.3rem;
+}
